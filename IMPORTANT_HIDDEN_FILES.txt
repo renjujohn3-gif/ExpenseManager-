@@ -1,0 +1,12 @@
+IMPORTANT
+
+This project intentionally contains hidden Git/GitHub files:
+- .gitignore
+- .gitattributes
+- .github/workflows/build-apk.yml
+
+If your Android file manager hides names beginning with '.', that is normal.
+GitHub itself will show them after upload/commit.
+
+The project also contains gradlew and gradlew.bat. The GitHub Actions workflow
+installs Gradle 8.7 and then runs ./gradlew :app:assembleDebug.
